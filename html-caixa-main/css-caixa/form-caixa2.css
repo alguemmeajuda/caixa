@@ -1,0 +1,25 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    outline: none;
+}
+/*para resertar o padrao de cada navegador*/
+
+@font-face {
+    font-family: grafite;
+    src: url(/fonts/bigwogs_gt/BigwogsGTDemo.otf) format(opentype), url(/fonts/bigwogs_gt/BigwogsGTDemo.ttf) format(truetype);
+}
+
+.body{
+    background: url(fundo.jpg) ; 
+    background-size: cover;
+}
+
+
+h3{
+ color: rgb(175, 40, 40);   
+}
+
